@@ -15,14 +15,15 @@ jobs:
   build:
     # This job will run on ubuntu virtual machine
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./flutter_app
+
     steps:
 
     # Setup Java environment in order to build the Android app.
     - uses: actions/checkout@v2
     
-    # Get flutter dependencies.
-    - run: cd flutter_app
-
     - name: Set variables
       run: |
         VER=$(cat version.json)
