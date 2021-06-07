@@ -3,6 +3,8 @@ import 'package:scdf_ibm/Screens/Login/login_screen.dart';
 import 'package:scdf_ibm/Screens/Signup/components/background.dart';
 import 'package:scdf_ibm/Screens/Signup/components/or_divider.dart';
 import 'package:scdf_ibm/Screens/Signup/components/social_icon.dart';
+import 'package:scdf_ibm/Screens/functional/home_page.dart';
+import 'package:scdf_ibm/Screens/functional/line_chart_page.dart';
 import 'package:scdf_ibm/components/already_have_an_account_acheck.dart';
 import 'package:scdf_ibm/components/rounded_button.dart';
 import 'package:scdf_ibm/components/rounded_input_field.dart';
@@ -36,7 +38,16 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "SIGNUP",
-              press: () {},
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return HomePage();
+                    },
+                  ),
+                );
+              },
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
