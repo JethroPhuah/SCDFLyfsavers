@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    alignment: Alignment.center,
+                    alignment: Alignment.centerRight,
                     child: LiteRollingSwitch(
                       value: false,
                       textOn: "On",
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                       colorOn: Colors.greenAccent,
                       colorOff: Colors.redAccent,
                       iconOn: Icons.done,
-                      iconOff: Icons.alarm_off,
+                      iconOff: Icons.warning_amber_rounded,
                       textSize: 18.0,
                       onChanged: (bool position) {
                         print("The button is $position");
