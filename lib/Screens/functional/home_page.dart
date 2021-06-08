@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
                       textSize: 18.0,
                       onChanged: (bool valveOn) async {
                         //Turn ON valve
-                        if (valveOn == true) {
+                        if (valveOn) {
                           //POST REQUEST
                           print("POST REQUEST");
                           var coordinates = "3.12345, 1.232123";
@@ -67,10 +67,13 @@ class HomePage extends StatelessWidget {
                             throw Exception('Failed to turn $valveOn.');
                           }
                           //Turn OFF valve
-                        } if(valveOn==false) {
+                        } else {
                           //GET REQUEST
                           print("GET REQUEST");
-                          getRequest();
+                          // TODO: Turn off valve first, send valveOn == False to server
+                          // using openValve function like above.
+                          var pressure = await getPressure();
+                          print(pressure);
                         }
                       },
                     ),
@@ -96,7 +99,17 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  void getRequest() {
+  Future<Map> getPressure() async {
+    final response = await http.get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
 
+  if (response.statusCode == 200) {
+    // If the server did return a 200 OK response,
+    // then parse the JSON.
+    return jsonDecode(response.body);
+  } else {
+    // If the server did not return a 200 OK response,
+    // then throw an exception.
+    throw Exception('Failed to retieve pressure');
+  }
   }
 }
