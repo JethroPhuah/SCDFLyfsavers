@@ -1,7 +1,11 @@
+import 'dart:convert';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lite_rolling_switch/lite_rolling_switch.dart';
 import 'line_chart_page.dart';
+import 'package:http/http.dart' as http;
+
 
 class HomePage extends StatelessWidget {
   @override
@@ -46,8 +50,19 @@ class HomePage extends StatelessWidget {
                       iconOn: Icons.done,
                       iconOff: Icons.warning_amber_rounded,
                       textSize: 18.0,
-                      onChanged: (bool position) {
-                        print("The button is $position");
+                      onChanged: (bool valveOn) async {
+                        var coordinates = "3.12345, 1.232123";
+                        var response = await openValve(coordinates, valveOn);
+                        if (response.statusCode == 201) {
+                          // If the server did return a 201 CREATED response,
+                          // then print msg
+                          print("The valve is $valveOn");
+                        } else {
+                          // If the server did not return a 201 CREATED response,
+                          // then throw an exception.
+                          throw Exception('Failed to turn $valveOn.');
+                          
+                        }
                       },
                     ),
                     constraints:
@@ -59,4 +74,19 @@ class HomePage extends StatelessWidget {
           ),
         ),
       );
+
+    Future<http.Response> openValve(String coordinates, bool valveOn) {
+      return http.post(
+        Uri.parse('https://jsonplaceholder.typicode.com/albums'),
+        headers: <String, String>{
+          'Content-Type': 'application/json; charset=UTF-8',
+        },
+        body: jsonEncode(<String, Map>{
+          'data': {
+            'coordinates': coordinates,
+            'valveOn': valveOn
+          }
+        }),
+      );
+    }
 }
