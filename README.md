@@ -39,6 +39,12 @@ These essential information will be clearly displayed as a dashboard on our app 
 
 # The architecture of your proposed solution
 
+![architecture](/assets/architecture.png)
+
+# Proposed Roadmap/Timeline
+
+![roadmap](/assets/roadmap.png)
+
 ## SCDF Personel
 1. Each station will be given 2 accounts to login via the mobile app.
 2. Appointed Hydrant ICs shall log in base on the account that is given to them. 
