@@ -12,6 +12,7 @@ Team Lyfsavers comprises of Jethro, Xin Rui, Riyan, You Sheng and Brandon. Thoug
 - SCDF to engage in more efficient resource allocation and scheduling which will greatly improve SCDF operational readiness<br>
 - Precious water that are wasted away during the course of traditional hydrant testing methods to be saved <br>
 - Eliminate water Damage to the nearby surroundings
+- Fuel expanded for these adhoc duties to be saved
 
 # Whats the problem?
 
@@ -22,10 +23,11 @@ Every month, each fire station will be tasked with the ad-hoc duty of routine te
 
 ## Not environmentally friendly
 Traditional hydrant testing requires the need to test for both static and flow pressure of the water. While testing for static pressure is easy and hussle-free, testing for the flow pressure of water is not. SCDF personel will have to turn on the valve and let the water gush out of the hydrant to test for the flow pressure of water. This might prove to be a hazard for the environment and also a clear waste of precious water. In Singapore, our hydrants put out around 3000 litres per minute. In other words, we are wasting more than 15000 litres of water if we are testing for it for a mere 5 minutes. Furthermore, with the high pressure of the hydrant and the massive volume of water that is gushing out, water damage might be incurred to its nearby surroundings.
+Last but not the least, alot of fuel is also expanded during such ad hoc duties. 
 
 # How can technology help? 
 
-By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system that allows station to conduct hydrant testing remotely without having to off-run a vehicle. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
+By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system that allows station to conduct hydrant testing remotely without having to off-run a vehicle. This will help enhance each station's operational readiness and ensure that they are well-equipped in terms of manpower to tackle any emergency. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
 
 # The idea
 
