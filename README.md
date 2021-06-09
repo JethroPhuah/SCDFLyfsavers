@@ -43,7 +43,7 @@ These essential information will be clearly displayed as a dashboard on our app 
 
 # Proposed Roadmap/Timeline
 
-![roadmap](/assets/roadmap.png)
+![roadmap](/assets/proposed_timeline.png)
 
 ## SCDF Personel
 1. Each station will be given 2 accounts to login via the mobile app.
