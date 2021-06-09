@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                           print("POST REQUEST");
                           var coordinates = "3.12345, 1.232123";
                           var response = await openValve(coordinates, valveOn);
-                          if (response.statusCode == 201) {
+                          if (response.statusCode == 200) {
                             // If the server did return a 201 CREATED response,
                             // then print msg
                             print("The valve is $valveOn");
@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
 
   Future<http.Response> openValve(String coordinates, bool valveOn) {
     return http.post(
-      Uri.parse('https://jsonplaceholder.typicode.com/albums'),
+      Uri.parse('https://scdf-lyfsavers.us-south.cf.appdomain.cloud/frontend/push_data'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
@@ -100,7 +100,7 @@ class HomePage extends StatelessWidget {
   }
 
   Future<Map> getPressure() async {
-    final response = await http.get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
+    final response = await http.get(Uri.parse('https://scdf-lyfsavers.us-south.cf.appdomain.cloud/frontend/get_data'));
 
   if (response.statusCode == 200) {
     // If the server did return a 200 OK response,
