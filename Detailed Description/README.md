@@ -20,10 +20,10 @@ On the occassion where the static pressure recorded is below the recommended/acc
 ## Cost Benefit Analysis
 **Cost**:  
 Pressure sensor: [SKU SEN0257](https://www.lazada.sg/products/pressure-transducer-sensor-5v-0-12mpa-oil-fuel-for-gas-water-air-i1707141766-s8301716712.html) ~ $10  
-![SKU SEN0257](1.webp)
+<img src="1.webp" alt="SKU SEN0257" width="200"/>
 
 Microcontroller: [ESP32 with SIM800L shield](https://www.lazada.sg/products/ttgo-t-call-v13-esp32-wireless-module-gprs-antenna-sim-card-sim800l-board-i1289024606-s5350638598.html) ~$20   
-![ESP32 with SIM800L shield](2.webp)  
+<img src="2.webp" alt="ESP32 with SIM800L shield" width="200"/>
 
 Additional stuff: 
 SIM card with 3G/4G/LTE ~ $10/month
