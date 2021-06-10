@@ -33,7 +33,7 @@ By utilising pressure sensors in conjuction with a software app, we are able to 
 
 RoboHydrant is an IoT system which utilises IBM CloudFoundry for effective relaying of information between SCDF personnel and the DPS310 barometric pressure sensor that will be installed in each fire hydrant.
 
-More often than not, SCDF personnel choose to first test the static pressure of the hydrant as the first line of defence before determining whether there is a need to test for the flow pressure of the hydrant. As such, our solution consist of a mobile app which can be used to remotely control the DPS310 barometric pressure sensor in a specified hydrant to test its static pressure results. The app is also able to store and display all historical records of any fire hydrants within 10km radius around the station for reference.
+More often than not, SCDF personnel choose to first test the static pressure of the hydrant as the first line of defence before determining whether there is a need to test for the flow pressure of the hydrant. As such, our solution consist of a mobile app which can be used to remotely control the SKU SEN0257 pressure sensor in a specified hydrant to test its static pressure results. The app is also able to store and display all historical records of any fire hydrants within 10km radius around the station for reference.
 
 These essential information will be clearly displayed as a dashboard on our app for SCDF personnel. On the account that the static pressure is lower than expected (below 20psi), it will send a notification to the user to warn him/her of the low pressure to prompt them to then physically go down for a check.
 
@@ -45,7 +45,7 @@ These essential information will be clearly displayed as a dashboard on our app 
 1. Each station will be given 2 accounts to login via the mobile app.
 2. Appointed Hydrant ICs shall log in base on the account that is given to them. 
 3. During the allocated time slots for hydrant testing, appointed hydrant IC's will turn on the valve from the mobile app. 
-4. The mobile app will send a http request to the sensor to then turn on the valve of the hydrant and activate the DPS310 barometric pressure sensor. The sensor will then send the http request to the IBM cloud.
+4. The mobile app will send a http request to the sensor to then turn on the valve of the hydrant and activate the SKU SEN0257 pressure sensor. The sensor will then send the http request to the IBM cloud.
 5. The mobile app will then retrieve its information from the IBM cloud and process the information before displaying it on the dashboard in the app. A warning notification might be sent if the static pressure is below the targeted 20psi, else it will show a green tick. 
 
 # Detailed description
@@ -66,7 +66,7 @@ The app dashboard is real-time, and will display real-time static pressure readi
 
 - Step 2 - Select the hydrant you want to test. (Not implemented in the above demo yet)
 
-- Step 3 - Toggle the on and off button to turn on the valve to obtain the readings from the DPS310 barometric pressure sensor installed in them.
+- Step 3 - Toggle the on and off button to turn on the valve to obtain the readings from the SKU SEN0257 pressure sensor installed in them.
 
 **Please do note that we have bypassed the user authentication and all values displayed on the mobile app are not the actual collection of data. (FOR DEMO PURPOSES ONLY)
 
