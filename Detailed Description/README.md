@@ -11,7 +11,7 @@ The opening of the hydrant's valve usually involves manual turning of the knob o
 
 ### 2. Convenient Collection of Static Pressure
 
-The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
+The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloudant and the mobile application will be updated with the latest pressure information of the hydrant. 
 
 ## 3. Warning System
 
