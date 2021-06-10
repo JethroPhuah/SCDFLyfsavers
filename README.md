@@ -45,6 +45,10 @@ These essential information will be clearly displayed as a dashboard on our app 
 
 ![roadmap](/assets/proposed_timeline.png)
 
+# Detailed description
+
+[More details available here](https://github.com/JethroPhuah/SCDFLyfsavers/tree/master/detailed_description)
+
 ## SCDF Personel
 1. Each station will be given 2 accounts to login via the mobile app.
 2. Appointed Hydrant ICs shall log in base on the account that is given to them. 
