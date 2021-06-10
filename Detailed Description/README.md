@@ -1,6 +1,6 @@
 # Detailed description
 
-![logo](/assets/logo.png)
+![logo](/assets/ROboHydrant_logo.png)
 
 ## Introduction
 
