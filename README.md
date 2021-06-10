@@ -70,6 +70,7 @@ These essential information will be clearly displayed as a dashboard on our app 
 # Getting started / Usage Guide
 
 Currently, our team is still working to develop the working apk, however a demo of the mobile application can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
+![demo](/assets/3.png)
 
 The app dashboard is real-time, and will display real-time static pressure readings made by the responders. 
 
