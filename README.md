@@ -7,7 +7,7 @@ Team Lyfsavers comprises of Jethro, Xin Rui, Riyan, You Sheng and Brandon. Thoug
 
 # Short Description
 
-"" - A fully integrated IoT system for hydrant testing that aims to test the static pressure of the hydrant remotely. This will allow:
+RoboHydrant - A fully integrated IoT system for hydrant testing that aims to test the static pressure of the hydrant remotely. This will allow:
 
 - SCDF to engage in more efficient resource allocation and scheduling which will greatly improve SCDF operational readiness<br>
 - Precious water that are wasted away during the course of traditional hydrant testing methods to be saved <br>
@@ -27,11 +27,11 @@ Last but not the least, alot of fuel is also expanded during such ad hoc duties.
 
 # How can technology help? 
 
-By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system that allows station to conduct hydrant testing remotely without having to off-run a vehicle. This will help enhance each station's operational readiness and ensure that they are well-equipped in terms of manpower to tackle any emergency. At the same time, our solution can help to eliminate all environmental cost incurred during traditional hydrant testing as mentioned above. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
+By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system, RoboHydrant that allows station to conduct hydrant testing remotely without having to off-run a vehicle. This will help enhance each station's operational readiness and ensure that they are well-equipped in terms of manpower to tackle any emergency. At the same time, our solution can help to eliminate all environmental cost incurred during traditional hydrant testing as mentioned above. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
 
 # The idea
 
-"" is an IoT system which utilises IBM CloudFoundry for effective relaying of information between SCDF personnel and the DPS310 barometric pressure sensor that will be installed in each fire hydrant.
+RoboHydrant is an IoT system which utilises IBM CloudFoundry for effective relaying of information between SCDF personnel and the DPS310 barometric pressure sensor that will be installed in each fire hydrant.
 
 More often than not, SCDF personnel choose to first test the static pressure of the hydrant as the first line of defence before determining whether there is a need to test for the flow pressure of the hydrant. As such, our solution consist of a mobile app which can be used to remotely control the DPS310 barometric pressure sensor in a specified hydrant to test its static pressure results. The app is also able to store and display all historical records of any fire hydrants within 10km radius around the station for reference.
 
@@ -55,6 +55,27 @@ These essential information will be clearly displayed as a dashboard on our app 
 # Proposed Roadmap/Timeline
 
 ![roadmap](/assets/proposed_timeline.png)
+
+# Getting started / Usage Guide
+
+Currently, our team is still working to develop the working apk, however a demo of the mobile application can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
+
+The app dashboard is real-time, and will display real-time static pressure readings made by the responders. 
+
+- Step 1 - As a responder, log in to the app with the allocated username and password.
+
+- Step 2 - Select the hydrant you want to test. (Not implemented in the above demo yet)
+
+- Step 3 - Toggle the on and off button to turn on the valve to obtain the readings from the DPS310 barometric pressure sensor installed in them.
+
+**Please do note that we have bypassed the user authentication and all values displayed on the mobile app are not the actual collection of data. (FOR DEMO PURPOSES ONLY)
+
+# Technologies Used / Built With
+
+Current Prototype:
+
+- [IBM Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry) - Web Server Hosting
+- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Web Application Framework
 
 
 Short description of your team members, and team name.<br>
