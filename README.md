@@ -41,6 +41,13 @@ These essential information will be clearly displayed as a dashboard on our app 
 
 ![architecture](/assets/architecture.png)
 
+## SCDF Personel
+1. Each station will be given 2 accounts to login via the mobile app.
+2. Appointed Hydrant ICs shall log in base on the account that is given to them. 
+3. During the allocated time slots for hydrant testing, appointed hydrant IC's will turn on the valve from the mobile app. 
+4. The mobile app will send a http request to the sensor to then turn on the valve of the hydrant and activate the DPS310 barometric pressure sensor. The sensor will then send the http request to the IBM cloud.
+5. The mobile app will then retrieve its information from the IBM cloud and process the information before displaying it on the dashboard in the app. A warning notification might be sent if the static pressure is below the targeted 20psi, else it will show a green tick. 
+
 # Detailed description
 
 [More details available here](https://github.com/JethroPhuah/SCDFLyfsavers/tree/main/Detailed%20Description)
@@ -48,13 +55,6 @@ These essential information will be clearly displayed as a dashboard on our app 
 # Proposed Roadmap/Timeline
 
 ![roadmap](/assets/proposed_timeline.png)
-
-## SCDF Personel
-1. Each station will be given 2 accounts to login via the mobile app.
-2. Appointed Hydrant ICs shall log in base on the account that is given to them. 
-3. During the allocated time slots for hydrant testing, appointed hydrant IC's will turn on the valve from the mobile app. 
-4. The mobile app will send a http request to the sensor to then turn on the valve of the hydrant and activate the DPS310 barometric pressure sensor. The sensor will then send the http request to the IBM cloud.
-5. The mobile app will then retrieve its information from the IBM cloud and process the information before displaying it on the dashboard in the app. A warning notification might be sent if the static pressure is below the targeted 20psi, else it will show a green tick. 
 
 
 Short description of your team members, and team name.<br>
