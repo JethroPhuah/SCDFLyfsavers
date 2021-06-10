@@ -1,6 +1,6 @@
 # Detailed description
 
-![logo](/assets/small_logo.png)
+![logo](/assets/logo_small.png)
 
 ## Introduction
 
