@@ -103,7 +103,3 @@ Designer - Brandon
 
 
 Problem Statement: How might we leverage emerging technologies (specifically "Green-Tech") to enhance emergency response and public safety in Singapore and make SCDF's service delivery environmentally friendly by design?
-
-a) Firefighters need to leave their post during non-emergency times to go around to the public hydrants in SG and manually collect data on hydrant operational readiness(mainly flow rate of the water & water pressure). They do this a few times each week and it is not only laborious for firefighters, but also environmentally unfriendly by design . 
-
-Proposed Solution: We could design an IoT system to collect this data so we save time & resources for the fire lads
