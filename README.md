@@ -41,13 +41,13 @@ These essential information will be clearly displayed as a dashboard on our app 
 
 ![architecture](/assets/architecture.png)
 
+# Detailed description
+
+[More details available here](https://github.com/JethroPhuah/SCDFLyfsavers/tree/main/Detailed%20Description)
+
 # Proposed Roadmap/Timeline
 
 ![roadmap](/assets/proposed_timeline.png)
-
-# Detailed description
-
-[More details available here](https://github.com/JethroPhuah/SCDFLyfsavers/tree/master/detailed_description)
 
 ## SCDF Personel
 1. Each station will be given 2 accounts to login via the mobile app.
