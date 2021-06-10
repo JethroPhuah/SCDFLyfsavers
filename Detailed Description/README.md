@@ -11,7 +11,7 @@ The opening of the hydrant's valve usually involves manual turning of the knob o
 
 ### 2. Convenient Collection of Static Pressure
 
-The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
+The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the SKU SEN0257 pressure sensor installed in them, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
 
 ### 3. Warning System
 
@@ -19,6 +19,13 @@ On the occassion where the static pressure recorded is below the recommended/acc
 
 ## Cost Benefit Analysis
 **Cost**:
+Pressure sensor: [SKU SEN0257](https://www.lazada.sg/products/pressure-transducer-sensor-5v-0-12mpa-oil-fuel-for-gas-water-air-i1707141766-s8301716712.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12261804687!120300669351!!!pla-297963845945!c!297963845945!8301716712!246835596&gclid=Cj0KCQjw8IaGBhCHARIsAGIRRYoq1FUmIFjoIWZnba14NWspE8oEKZsy3A5ozo16NOfQBGQ6JD0tqv4aAkY_EALw_wcB) ~ $10
+Microcontroller: [ESP32 with SIM800L shield](https://www.lazada.sg/products/ttgo-t-call-v13-esp32-wireless-module-gprs-antenna-sim-card-sim800l-board-i1289024606-s5350638598.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12266637336!116209940086!!!aud-942143542009:pla-297963845945!c!297963845945!5350638598!322763784&gclid=Cj0KCQjw8IaGBhCHARIsAGIRRYo_ZR2NiDUwjWE5vGMIHaT9YHsFg7sSKkRKMkt830Z6EDONivjhlGMaArYIEALw_wcB) ~$20 
+
+Additional stuff: 
+SIM card with 3G/4G/LTE ~ $10/month
+
+Total fixed cost incurred for 100 hydrants: ~ $4000
 
 
 **Benefits**: 
@@ -28,6 +35,11 @@ Man-hours saved per month: 2 X 4 X 22 = 176 hours.
 
 Assuming our hydrants put out around 3000 litres per minute; each hydrant test takes about 3 minutes; 100 hydrants tested each month. <br>
 Total amount of water saved per month: 3000 X 3 X 100 = 900, 000 litres
+
+[Cost of water](https://www.pub.gov.sg/watersupply/waterprice) ~ $2.74/1000 litres
+Total savings from water/100 hydrants: 900 X 2.74 = $2466
+
+As seen above, the total savings benefited is approximately 50% of the total fixed cost that is being incurred (not withstanding the man-hours saved per month). Thus, in the long run, SCDF will definitely be able to reap its benefits.
 
 ## Improvements before Grand Finals
 
