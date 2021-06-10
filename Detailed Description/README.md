@@ -11,16 +11,23 @@ The opening of the hydrant's valve usually involves manual turning of the knob o
 
 ### 2. Convenient Collection of Static Pressure
 
-The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloudant and the mobile application will be updated with the latest pressure information of the hydrant. 
+The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
 
 ## 3. Warning System
 
 On the occassion where the static pressure recorded is below the recommended/accepted range, a warning notification will be sent to alert the user to prompt him/her to perform a physical test instead.
 
-## Demo
+## Cost Benefit Analysis
+**Cost**:
 
-A demo of the mobile application can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
-**Please do note that we have bypassed the user authentication and all values displayed on the mobile app are not the actual collection of data. (FOR DEMO PURPOSES ONLY)
+
+**Benefits**: 
+
+Assuming the total duration for a session of hydrant testing takes about 2 hours and a crew has 4 responders.
+Man-hours saved per month: 2 X 4 X 22 = 176 hours.
+
+Assuming our hydrants put out around 3000 litres per minute; each hydrant test takes about 3 minutes; 100 hydrants tested each monthIn other words, we are wasting more than 15000 litres of water if we are testing for it for a mere 5 minutes. 
+Total amount of water saved per month: 3000 X 3 X 100 = 900, 000 litres
 
 ## Improvements before Grand Finals
 
