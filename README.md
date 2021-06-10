@@ -76,7 +76,6 @@ Current Prototype:
 
 - [IBM Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry) - Web Server Hosting
 - [FastApi](https://fastapi.tiangolo.com/) - Web Application Framework
-- [Arduino] 
 - [Flutter](https://flutter.dev/) - Mobile App Application Framework
 
 
