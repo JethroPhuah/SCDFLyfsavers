@@ -1,6 +1,6 @@
 ## Introduction
 
-Incorporating IoT and APIs, RoboHydrant aims to replace manual checks of all fire hydrants in Singapore and make SCDF's service delivery environmentally friendly by design.
+Incorporating IoT and APIs, RoboHydrant aims to replace manual testing of all fire hydrants in Singapore and make SCDF's service delivery environmentally friendly by design.
 
 ![logo](/assets/logo_small.png)
 
@@ -11,11 +11,16 @@ The opening of the hydrant's valve usually involves manual turning of the knob o
 
 ### 2. Convenient Collection of Static Pressure
 
-The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
+The appplication incorporates Geolocational API and the coordinates of the coordinates of the hydrants to track the pressures of each hydrant at each location. After collection of the static pressure via the DPS310 barometric pressure sensor installed in them, the information will be stored in IBM Cloud Foundry and the mobile application will be updated with the latest pressure information of the hydrant. 
+
+## 3. Warning System
+
+On the occassion where the static pressure recorded is below the recommended/accepted range, a warning notification will be sent to alert the user to prompt him/her to perform a physical test instead.
 
 ## Demo
 
 A demo of the mobile application can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
+**Please do note that we have bypassed the user authentication and all values displayed on the mobile app are not the actual collection of data. (FOR DEMO PURPOSES ONLY)
 
 ## Improvements before Grand Finals
 
