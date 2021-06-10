@@ -1,10 +1,8 @@
-# RoboHydrant
-
-![logo](/assets/logo_small.png)
-
 ## Introduction
 
 Incorporating IoT and APIs, RoboHydrant aims to replace manual checks of all fire hydrants in Singapore and make SCDF's service delivery environmentally friendly by design.
+
+![logo](/assets/logo_small.png)
 
 ## Features
 ### 1. Automated Opening / Closing of Pressure Valve
