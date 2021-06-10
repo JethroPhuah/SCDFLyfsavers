@@ -1,13 +1,12 @@
-# Detailed description
+# RoboHydrant
 
 ![logo](/assets/logo_small.png)
 
 ## Introduction
 
-Incorporating IoT and APIs, RoboHydrant aims to replace manual checks of all fire hydrants in Singapore.
+Incorporating IoT and APIs, RoboHydrant aims to replace manual checks of all fire hydrants in Singapore and make SCDF's service delivery environmentally friendly by design.
 
 ## Features
-
 ### 1. Automated Opening / Closing of Pressure Valve
 
 The opening of the hydrant's valve usually involves manual turning of the knob on the ground. This process can be automated by the robotic hardware which uses supplied power upon receiving a request from the server. Likewise, after the static pressure is collected, the valve can be closed in the same automated process.
@@ -18,7 +17,7 @@ The appplication incorporates Geolocational API and the coordinates of the coord
 
 ## Demo
 
-A proof of concept can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
+A demo of the mobile application can be found at: https://scdf-lyfsavers.s3-web.jp-tok.cloud-object-storage.appdomain.cloud/index.html
 
 ## Improvements before Grand Finals
 
