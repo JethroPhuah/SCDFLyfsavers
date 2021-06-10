@@ -1,7 +1,7 @@
 # SCDFLyfsavers
 SCDF X IBM Lifesavers' Innovation Challenge 20/21 
 <p align="center">
-  <img src="assets/ROboHydrant_logo.png" width="500" title="">
+  <img src="assets/logo_small.png" width="500" title="">
 </p>
   <p align="center">
     "RoboHydrant - A fully integrated IoT system for hydrant testing"
