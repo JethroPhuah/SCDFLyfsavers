@@ -26,7 +26,7 @@ On the occassion where the static pressure recorded is below the recommended/acc
 Assuming the total duration for a session of hydrant testing takes about 2 hours and a crew has 4 responders. <br>
 Man-hours saved per month: 2 X 4 X 22 = 176 hours.
 
-Assuming our hydrants put out around 3000 litres per minute; each hydrant test takes about 3 minutes; 100 hydrants tested each monthIn other words, we are wasting more than 15000 litres of water if we are testing for it for a mere 5 minutes. <br>
+Assuming our hydrants put out around 3000 litres per minute; each hydrant test takes about 3 minutes; 100 hydrants tested each month. <br>
 Total amount of water saved per month: 3000 X 3 X 100 = 900, 000 litres
 
 ## Improvements before Grand Finals
