@@ -75,21 +75,23 @@ The app dashboard is real-time, and will display real-time static pressure readi
 Current Prototype:
 
 - [IBM Cloud Foundry](https://www.ibm.com/cloud/cloud-foundry) - Web Server Hosting
-- [Flask](https://flask.palletsprojects.com/en/1.1.x/) - Web Application Framework
+- [FastApi](https://fastapi.tiangolo.com/) - Web Application Framework
+- [Arduino] 
+- [Flutter](https://flutter.dev/) - Mobile App Application Framework
 
 
 Short description of your team members, and team name.<br>
 a) A short description of the problem you are tackling, how technology can help, as
-well as the idea your team is proposing* <br>
-b) Pitch Video* <br>
-c) The architecture of your proposed solution* <br>
-d) A hyperlink to your detailed solution (Long description of your solution) * <br>
-e) Project Roadmap/ Proposed timeline <br>
+well as the idea your team is proposing* <br> **done**
+b) Pitch Video* <br>**done**
+c) The architecture of your proposed solution* <br>**not done**
+d) A hyperlink to your detailed solution (Long description of your solution) * <br>**done**
+e) Project Roadmap/ Proposed timeline <br>**done**
 f) Getting started (step-by-step instructions to install the required software and how to
-run a demo of your solution) * <br>
+run a demo of your solution) * <br>**done**
 g) Running the tests (Explanation and breakdown on how to run tests for the proposed <br>
-solution)
-h) Live demo (link to an actual working demo/website) <br>
+solution)**not done**
+h) Live demo (link to an actual working demo/website) <br>**done**
 i) What your team used to build your solution (e.g. IBM Cloud, etc...) * <br>
 
 Team Name: Lyfsavers<br>
