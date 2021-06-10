@@ -27,7 +27,7 @@ Last but not the least, alot of fuel is also expanded during such ad hoc duties.
 
 # How can technology help? 
 
-By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system that allows station to conduct hydrant testing remotely without having to off-run a vehicle. This will help enhance each station's operational readiness and ensure that they are well-equipped in terms of manpower to tackle any emergency. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
+By utilising pressure sensors in conjuction with a software app, we are able to design a full integrated IoT system that allows station to conduct hydrant testing remotely without having to off-run a vehicle. This will help enhance each station's operational readiness and ensure that they are well-equipped in terms of manpower to tackle any emergency. At the same time, our solution can help to eliminate all environmental cost incurred during traditional hydrant testing as mentioned above. Furthermore, with such automation comes increased accuracy, efficiency and reliability in collecting data for hydrants around Singapore.
 
 # The idea
 
