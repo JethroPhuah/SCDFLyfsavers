@@ -18,7 +18,7 @@ Team Lyfsavers comprises of Jethro, Xin Rui, Riyan, You Sheng and Brandon. Thoug
 
 # Problem Statement Chosen
 
-Problem Statement: How might we leverage emerging technologies (specifically "Green-Tech") to enhance emergency response and public safety in Singapore and make SCDF's service delivery environmentally friendly by design?
+How might we leverage emerging technologies (specifically "Green-Tech") to enhance emergency response and public safety in Singapore and make SCDF's service delivery environmentally friendly by design?
 
 # Short Description
 
