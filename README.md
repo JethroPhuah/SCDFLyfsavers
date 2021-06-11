@@ -81,6 +81,8 @@ The app dashboard is real-time, and will display real-time static pressure readi
 
 **Please do note that we have bypassed the user authentication and all values displayed on the mobile app are not the actual collection of data. (FOR DEMO PURPOSES ONLY)
 
+## [Video Pitch](https://www.youtube.com/watch?v=JNbpxYbvVJQ)
+
 # Technologies Used / Built With
 
 Current Prototype:
