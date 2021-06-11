@@ -45,7 +45,7 @@ By utilising pressure sensors in conjuction with a software app, we are able to 
 
 # The idea
 
-RoboHydrant is an IoT system which utilises IBM CloudFoundry for effective relaying of information between SCDF personnel and the DPS310 barometric pressure sensor that will be installed in each fire hydrant.
+RoboHydrant is an IoT system which utilises IBM CloudFoundry for effective relaying of information between SCDF personnel and the SKU SEN0257 barometric pressure sensor that will be installed in each fire hydrant.
 
 More often than not, SCDF personnel choose to first test the static pressure of the hydrant as the first line of defence before determining whether there is a need to test for the flow pressure of the hydrant. As such, our solution consist of a mobile app which can be used to remotely control the SKU SEN0257 pressure sensor in a specified hydrant to test its static pressure results. The app is also able to store and display all historical records of any fire hydrants within 10km radius around the station for reference.
 
