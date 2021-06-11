@@ -16,6 +16,10 @@ SCDF X IBM Lifesavers' Innovation Challenge 20/21
  
 Team Lyfsavers comprises of Jethro, Xin Rui, Riyan, You Sheng and Brandon. Though we are taking different courses in Nanyang Technological University, we have come together, each with our own unique skillsets, to tackle the this year SCDF X IBM Lifesavers' Innovation Challenge.
 
+# Problem Statement Chosen
+
+Problem Statement: How might we leverage emerging technologies (specifically "Green-Tech") to enhance emergency response and public safety in Singapore and make SCDF's service delivery environmentally friendly by design?
+
 # Short Description
 
 RoboHydrant - A fully integrated IoT system for hydrant testing that aims to test the static pressure of the hydrant remotely. This will allow:
@@ -91,27 +95,3 @@ Current Prototype:
 - [FastApi](https://fastapi.tiangolo.com/) - Web Application Framework
 - [Flutter](https://flutter.dev/) - Mobile App Application Framework
 
-
-Short description of your team members, and team name.<br>
-a) A short description of the problem you are tackling, how technology can help, as
-well as the idea your team is proposing* <br> **done**
-b) Pitch Video* <br>**done**
-c) The architecture of your proposed solution* <br>**not done**
-d) A hyperlink to your detailed solution (Long description of your solution) * <br>**done**
-e) Project Roadmap/ Proposed timeline <br>**done**
-f) Getting started (step-by-step instructions to install the required software and how to
-run a demo of your solution) * <br>**done**
-g) Running the tests (Explanation and breakdown on how to run tests for the proposed <br>
-solution)**not done**
-h) Live demo (link to an actual working demo/website) <br>**done**
-i) What your team used to build your solution (e.g. IBM Cloud, etc...) * <br>
-
-Team Name: Lyfsavers<br>
-Team Leader - Jethro<br>
-Coder - Xin Rui<br>
-Engineer - Riyan<br>
-Researcher - You Sheng<br>
-Designer - Brandon
-
-
-Problem Statement: How might we leverage emerging technologies (specifically "Green-Tech") to enhance emergency response and public safety in Singapore and make SCDF's service delivery environmentally friendly by design?
